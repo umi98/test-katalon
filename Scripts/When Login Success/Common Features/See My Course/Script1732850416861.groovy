@@ -17,22 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//TestData loginData = findTestData('Data Files/User Login')
-
-//for (int i = 1; i <= loginData.getRowNumbers(); i++) {
-//	String email = loginData.getValue('email', i)
-//	String password = loginData.getValue('password', i)
-//	
-//	WebUI.setText(findTestObject('Login Page/Page_Premium Class/input_Email_email'), email)
-//	
-//	WebUI.setText(findTestObject('Login Page/Page_Premium Class/input_Password_password'), password)
-//	
-//}
-
-WebUI.setText(findTestObject('Login Page/Page_Premium Class/input_Email_email'), 'umifarida98@gmail.com')
-
-WebUI.setText(findTestObject('Login Page/Page_Premium Class/input_Password_password'), 'SayaGanteng1!')
-
-WebUI.click(findTestObject('Login Page/Page_Premium Class/button_Login'))
-
+WebUI.click(findTestObject('Common Links in Home Page/a_My Course'))
 

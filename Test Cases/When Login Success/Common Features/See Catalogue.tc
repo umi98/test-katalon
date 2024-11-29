@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Performed when login success</description>
+   <name>See Catalogue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd0ab42e-faea-441e-b641-a6aa23e2ad0f</testCaseGuid>
+</TestCaseEntity>
