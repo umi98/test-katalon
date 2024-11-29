@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User login,Chrome 130.0.0.0,,,28-11-2024 09:20:34,28-11-2024 09:20:46,11.264s,PASSED
+,,,,,,,
+Test Cases/Open App,Chrome 130.0.0.0,,,28-11-2024 09:20:35,28-11-2024 09:20:43,8.424s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,28-11-2024 09:20:35,28-11-2024 09:20:37,2.322s,PASSED
+navigateToUrl(BASE_URL),Chrome 130.0.0.0,,,28-11-2024 09:20:37,28-11-2024 09:20:43,5.730s,PASSED
+,,,,,,,
+Test Cases/Button Login,Chrome 130.0.0.0,,,28-11-2024 09:20:43,28-11-2024 09:20:44,0.681s,PASSED
+"click(findTestObject(""Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,28-11-2024 09:20:43,28-11-2024 09:20:44,0.551s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 130.0.0.0,,,28-11-2024 09:20:44,28-11-2024 09:20:46,1.974s,PASSED
+"setText(findTestObject(""Login Page/Page_Premium Class/input_Email_email""), ""umifarida98@gmail.com"")",Chrome 130.0.0.0,,,28-11-2024 09:20:44,28-11-2024 09:20:45,0.820s,PASSED
+"setText(findTestObject(""Login Page/Page_Premium Class/input_Password_password""), ""SayaGanteng1!"")",Chrome 130.0.0.0,,,28-11-2024 09:20:45,28-11-2024 09:20:45,0.657s,PASSED
+"click(findTestObject(""Login Page/Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,28-11-2024 09:20:45,28-11-2024 09:20:46,0.433s,PASSED

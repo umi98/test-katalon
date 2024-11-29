@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User login,,,,28-11-2024 09:46:24,28-11-2024 09:46:48,23.655s,FAILED
+,,,,,,,
+Test Cases/Open App,,,,28-11-2024 09:46:24,28-11-2024 09:46:47,23.126s,FAILED
+"openBrowser("""")",,,,28-11-2024 09:46:25,28-11-2024 09:46:47,22.732s,FAILED
+,,,,,,,
+Test Cases/Button Login,,,,28-11-2024 09:46:47,28-11-2024 09:46:48,0.221s,FAILED
+"click(findTestObject(""Page_Premium Class/button_Login""))",,,,28-11-2024 09:46:48,28-11-2024 09:46:48,0.103s,FAILED
+,,,,,,,
+Test Cases/Login,,,,28-11-2024 09:46:48,28-11-2024 09:46:48,0.132s,FAILED
+"setText(findTestObject(""Login Page/Page_Premium Class/input_Email_email""), ""umifarida98@gmail.com"")",,,,28-11-2024 09:46:48,28-11-2024 09:46:48,0.046s,FAILED

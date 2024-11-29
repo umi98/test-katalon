@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Home,Chrome 130.0.0.0,,,29-11-2024 10:36:50,29-11-2024 10:38:34,1m - 43.696s,FAILED
+,,,,,,,
+Test Cases/Open App,Chrome 130.0.0.0,,,29-11-2024 10:36:50,29-11-2024 10:37:00,10.109s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,29-11-2024 10:36:50,29-11-2024 10:36:52,1.999s,PASSED
+navigateToUrl(BASE_URL),Chrome 130.0.0.0,,,29-11-2024 10:36:52,29-11-2024 10:37:00,7.806s,PASSED
+,,,,,,,
+Test Cases/Button Login,Chrome 130.0.0.0,,,29-11-2024 10:37:00,29-11-2024 10:37:01,0.609s,PASSED
+"click(findTestObject(""Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,29-11-2024 10:37:00,29-11-2024 10:37:01,0.533s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 130.0.0.0,,,29-11-2024 10:37:01,29-11-2024 10:37:03,2.226s,PASSED
+"setText(findTestObject(""Login Page/Page_Premium Class/input_Email_email""), ""umifarida98@gmail.com"")",Chrome 130.0.0.0,,,29-11-2024 10:37:01,29-11-2024 10:37:02,0.933s,PASSED
+"setText(findTestObject(""Login Page/Page_Premium Class/input_Password_password""), ""SayaGanteng1!"")",Chrome 130.0.0.0,,,29-11-2024 10:37:02,29-11-2024 10:37:02,0.697s,PASSED
+"click(findTestObject(""Login Page/Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,29-11-2024 10:37:02,29-11-2024 10:37:03,0.535s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See Catalogue,Chrome 130.0.0.0,Performed when login success,,29-11-2024 10:37:03,29-11-2024 10:37:04,1.309s,PASSED
+"click(findTestObject(""Common Links in Home Page/a_Home""))",Chrome 130.0.0.0,,,29-11-2024 10:37:03,29-11-2024 10:37:04,1.258s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See My Transaction,Chrome 130.0.0.0,,,29-11-2024 10:37:04,29-11-2024 10:37:05,0.562s,PASSED
+"click(findTestObject(""Common Links in Home Page/a_Transaction""))",Chrome 130.0.0.0,,,29-11-2024 10:37:04,29-11-2024 10:37:05,0.527s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See My Course,Chrome 130.0.0.0,,,29-11-2024 10:37:05,29-11-2024 10:37:11,5.730s,PASSED
+"click(findTestObject(""Common Links in Home Page/a_My Course""))",Chrome 130.0.0.0,,,29-11-2024 10:37:05,29-11-2024 10:37:11,5.698s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See My Cart,Chrome 130.0.0.0,,,29-11-2024 10:37:11,29-11-2024 10:37:12,1.493s,PASSED
+"click(findTestObject(""Common Links in Home Page/i_Log Out_bi bi-cart-dash-fill icon""))",Chrome 130.0.0.0,,,29-11-2024 10:37:11,29-11-2024 10:37:12,1.445s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See My Certificate,Chrome 130.0.0.0,,,29-11-2024 10:37:12,29-11-2024 10:37:15,2.421s,PASSED
+"click(findTestObject(""Common Links in Home Page/a_Certificate""))",Chrome 130.0.0.0,,,29-11-2024 10:37:12,29-11-2024 10:37:15,2.378s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/See My Profile,Chrome 130.0.0.0,,,29-11-2024 10:37:15,29-11-2024 10:37:19,4.603s,PASSED
+"click(findTestObject(""Common Links in Home Page/a_Profile""))",Chrome 130.0.0.0,,,29-11-2024 10:37:15,29-11-2024 10:37:19,4.560s,PASSED
+,,,,,,,
+Test Cases/When Login Success/Common Features/Logout but Cancel,Chrome 130.0.0.0,,,29-11-2024 10:37:19,29-11-2024 10:37:51,31.835s,FAILED
+"click(findTestObject(""Common Links in Home Page/a_Log Out""))",Chrome 130.0.0.0,,,29-11-2024 10:37:19,29-11-2024 10:37:20,0.556s,PASSED
+"click(findTestObject(""Common Links in Home Page/button_Cancel""))",Chrome 130.0.0.0,,,29-11-2024 10:37:20,29-11-2024 10:37:51,31.244s,FAILED
+,,,,,,,
+Test Cases/When Login Success/Common Features/Logout and Proceed,Chrome 130.0.0.0,,,29-11-2024 10:37:51,29-11-2024 10:38:34,42.612s,FAILED
+"click(findTestObject(""Common Links in Home Page/a_Log Out""))",Chrome 130.0.0.0,,,29-11-2024 10:37:51,29-11-2024 10:38:02,11.369s,PASSED
+"click(findTestObject(""Common Links in Home Page/button_Log Out""))",Chrome 130.0.0.0,,,29-11-2024 10:38:02,29-11-2024 10:38:34,31.211s,FAILED

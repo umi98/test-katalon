@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User login" time="11.195" tests="3" failures="0" errors="0">
+   <testsuite name="User login" tests="3" failures="0" errors="0" time="11.195" skipped="0" timestamp="28-11-2024T09:59:34" hostname="enigma - enigma-ThinkPad-L480" id="Test Suites/User login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/enigma/Katalon Studio/testing-app-web/Reports/20241128_095925/User login/20241128_095926"/>
+         <property name="logFiles" value="/home/enigma/Katalon Studio/testing-app-web/Reports/20241128_095925/User login/20241128_095926/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="enigma - enigma-ThinkPad-L480"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="e64829f6776b932d1f5550bb9655b4bb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Open App" time="8.279" classname="Test Cases/Open App" status="PASSED">
+         <system-out><![CDATA[28-11-2024T09:59:34 - [TEST_CASE][PASSED] - Test Cases/Open App: Test Cases/Open App
+
+28-11-2024T09:59:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-11-2024T09:59:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-11-2024T09:59:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-11-2024T09:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-11-2024T09:59:37 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev.premium.enigmacamp.com/' successfully
+
+28-11-2024T09:59:43 - [MESSAGE][PASSED] - Navigate to 'https://dev.premium.enigmacamp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Button Login" time="0.673" classname="Test Cases/Button Login" status="PASSED">
+         <system-out><![CDATA[28-11-2024T09:59:43 - [TEST_CASE][PASSED] - Test Cases/Button Login: Test Cases/Button Login
+
+28-11-2024T09:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Premium Class/button_Login")): Object: 'Object Repository/Page_Premium Class/button_Login' is clicked on
+
+28-11-2024T09:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Premium Class/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="2.063" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[28-11-2024T09:59:43 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+28-11-2024T09:59:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Premium Class/input_Email_email"), "umifarida98@gmail.com"): Text 'umifarida98@gmail.com' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Email_email'
+
+28-11-2024T09:59:44 - [MESSAGE][PASSED] - Text 'umifarida98@gmail.com' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Email_email'
+
+28-11-2024T09:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Premium Class/input_Password_password"), "SayaGanteng1!"): Text 'SayaGanteng1!' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Password_password'
+
+28-11-2024T09:59:45 - [MESSAGE][PASSED] - Text 'SayaGanteng1!' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Password_password'
+
+28-11-2024T09:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_Premium Class/button_Login")): Object: 'Object Repository/Login Page/Page_Premium Class/button_Login' is clicked on
+
+28-11-2024T09:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Premium Class/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-11-2024T09:59:34 - [TEST_SUITE][PASSED] - User login: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

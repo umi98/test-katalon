@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Home" time="22.111" tests="9" failures="0" errors="0">
+   <testsuite name="User Home" tests="9" failures="0" errors="0" time="22.111" skipped="0" timestamp="29-11-2024T10:44:35" hostname="enigma - enigma-ThinkPad-L480" id="Test Suites/User Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/enigma/Katalon Studio/testing-app-web/Reports/20241129_104428/User Home/20241129_104428"/>
+         <property name="logFiles" value="/home/enigma/Katalon Studio/testing-app-web/Reports/20241129_104428/User Home/20241129_104428/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="enigma - enigma-ThinkPad-L480"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="1e0d2420b8eff954bb1518c27090aa21"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Open App" time="6.407" classname="Test Cases/Open App" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:35 - [TEST_CASE][PASSED] - Test Cases/Open App: Test Cases/Open App
+
+29-11-2024T10:44:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-11-2024T10:44:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-11-2024T10:44:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-11-2024T10:44:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-11-2024T10:44:37 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev.premium.enigmacamp.com/' successfully
+
+29-11-2024T10:44:42 - [MESSAGE][PASSED] - Navigate to 'https://dev.premium.enigmacamp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Button Login" time="0.627" classname="Test Cases/Button Login" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:42 - [TEST_CASE][PASSED] - Test Cases/Button Login: Test Cases/Button Login
+
+29-11-2024T10:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Premium Class/button_Login")): Object: 'Object Repository/Page_Premium Class/button_Login' is clicked on
+
+29-11-2024T10:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Premium Class/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="2.03" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:42 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+29-11-2024T10:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Premium Class/input_Email_email"), "umifarida98@gmail.com"): Text 'umifarida98@gmail.com' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Email_email'
+
+29-11-2024T10:44:43 - [MESSAGE][PASSED] - Text 'umifarida98@gmail.com' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Email_email'
+
+29-11-2024T10:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Premium Class/input_Password_password"), "SayaGanteng1!"): Text 'SayaGanteng1!' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Password_password'
+
+29-11-2024T10:44:44 - [MESSAGE][PASSED] - Text 'SayaGanteng1!' is set on object 'Object Repository/Login Page/Page_Premium Class/input_Password_password'
+
+29-11-2024T10:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_Premium Class/button_Login")): Object: 'Object Repository/Login Page/Page_Premium Class/button_Login' is clicked on
+
+29-11-2024T10:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Premium Class/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See Catalogue" time="1.332" classname="Test Cases/When Login Success/Common Features/See Catalogue" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:44 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See Catalogue: Test Cases/When Login Success/Common Features/See Catalogue
+
+29-11-2024T10:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/a_Home")): Object: 'Object Repository/Common Links in Home Page/a_Home' is clicked on
+
+29-11-2024T10:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/a_Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See My Course" time="0.637" classname="Test Cases/When Login Success/Common Features/See My Course" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:46 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See My Course: Test Cases/When Login Success/Common Features/See My Course
+
+29-11-2024T10:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/a_My Course")): Object: 'Object Repository/Common Links in Home Page/a_My Course' is clicked on
+
+29-11-2024T10:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/a_My Course' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See My Transaction" time="1.905" classname="Test Cases/When Login Success/Common Features/See My Transaction" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:46 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See My Transaction: Test Cases/When Login Success/Common Features/See My Transaction
+
+29-11-2024T10:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/a_Transaction")): Object: 'Object Repository/Common Links in Home Page/a_Transaction' is clicked on
+
+29-11-2024T10:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/a_Transaction' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See My Certificate" time="4.278" classname="Test Cases/When Login Success/Common Features/See My Certificate" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:48 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See My Certificate: Test Cases/When Login Success/Common Features/See My Certificate
+
+29-11-2024T10:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/a_Certificate")): Object: 'Object Repository/Common Links in Home Page/a_Certificate' is clicked on
+
+29-11-2024T10:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/a_Certificate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See My Profile" time="3.732" classname="Test Cases/When Login Success/Common Features/See My Profile" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:53 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See My Profile: Test Cases/When Login Success/Common Features/See My Profile
+
+29-11-2024T10:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/a_Profile")): Object: 'Object Repository/Common Links in Home Page/a_Profile' is clicked on
+
+29-11-2024T10:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/a_Profile' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/When Login Success/Common Features/See My Cart" time="1.009" classname="Test Cases/When Login Success/Common Features/See My Cart" status="PASSED">
+         <system-out><![CDATA[29-11-2024T10:44:56 - [TEST_CASE][PASSED] - Test Cases/When Login Success/Common Features/See My Cart: Test Cases/When Login Success/Common Features/See My Cart
+
+29-11-2024T10:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Common Links in Home Page/i_Log Out_bi bi-cart-dash-fill icon")): Object: 'Object Repository/Common Links in Home Page/i_Log Out_bi bi-cart-dash-fill icon' is clicked on
+
+29-11-2024T10:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common Links in Home Page/i_Log Out_bi bi-cart-dash-fill icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-11-2024T10:44:35 - [TEST_SUITE][PASSED] - User Home: Test Cases/When Login Success/Common Features/See My Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

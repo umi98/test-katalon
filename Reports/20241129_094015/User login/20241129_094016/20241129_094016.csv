@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User login,Chrome 130.0.0.0,,,29-11-2024 09:40:24,29-11-2024 09:40:37,13.434s,PASSED
+,,,,,,,
+Test Cases/Open App,Chrome 130.0.0.0,,,29-11-2024 09:40:24,29-11-2024 09:40:33,8.771s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,29-11-2024 09:40:24,29-11-2024 09:40:27,2.237s,PASSED
+navigateToUrl(BASE_URL),Chrome 130.0.0.0,,,29-11-2024 09:40:27,29-11-2024 09:40:33,6.183s,PASSED
+,,,,,,,
+Test Cases/Button Login,Chrome 130.0.0.0,,,29-11-2024 09:40:33,29-11-2024 09:40:33,0.633s,PASSED
+"click(findTestObject(""Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,29-11-2024 09:40:33,29-11-2024 09:40:33,0.531s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 130.0.0.0,,,29-11-2024 09:40:33,29-11-2024 09:40:37,3.828s,PASSED
+"loginData = findTestData(""Data Files/User Login"")",Chrome 130.0.0.0,,,29-11-2024 09:40:34,29-11-2024 09:40:34,0.017s,PASSED
+"for ([i = 1, i <= loginData.getRowNumbers(), (i++)])",Chrome 130.0.0.0,,,29-11-2024 09:40:34,29-11-2024 09:40:37,3.037s,PASSED
+"click(findTestObject(""Login Page/Page_Premium Class/button_Login""))",Chrome 130.0.0.0,,,29-11-2024 09:40:37,29-11-2024 09:40:37,0.605s,PASSED
